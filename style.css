@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainSetup {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.menu li{
+    height: 100vh;
+    list-style: none;
+}
+.menu ul {
+    overflow: hidden;   
+    padding: 0;
+}
+.menu a {
+    width: 12vw;
+    height: 16.666vh;
+    border: black 1px solid;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color:rgba(41, 34, 34, 0.185);
+}
+.logo img{
+    width: 88vw;
+    height: 16.4vh;
+}
+.logo2 img {
+    width: 100vw;
+    height: 16.4vh;
+} 
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.galery img {
+    width: 30vw;
+    height: 27vh;
+}
+.about{
+    text-align: left;
+}
+.about img {
+    width: 20vw;
+    height: 25vh;
+}
+.concact {
+    text-align: center;
+}
+.hobbyPhoto img {
+    width: 20vw;
+    height: 20wh;
+}
+.hobbyPhoto {
+    display: grid;
+    justify-content: center;
+}
